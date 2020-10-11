@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 0;
+  background: #e5e5e5;
+  font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1em;
+}
+
+.grid-container {
+  width: 80%;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: cyan;
+}
+
+button, .button {
+  background: #0c4646;
+}
+
+.current {
+  color: cyan;
+  border-bottom: 0.06em solid cyan;
+}
+
+.button {
+  border-radius: 0.3em;
+}
+
+.button:hover {
+  background: #0c4646;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+p, .lp {
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+header {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;;
+}
+
+.top-bar h1 {
+  font-size: 2em;
+  font-family: Chiller;
+}
+
+.top-bar, .top-bar ul {
+  background: transparent;
+}
+
+.top-bar a {
+  color: darkcyan;
+}
+
+.top-bar a:hover {
+  color: cyan;
+  border-bottom: 0.06em solid cyan;
+}
+
+#intro {
+  margin-top: 6em;
+  padding-bottom: 3em;
+}
+
+#intro-grt {
+  background: darkcyan;
+  color: #f1f1f1;
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+#intro-title {
+  font-size: 3em;
+  margin-top: 0.5em; 
+}
+
+#intro-text, #intro-header span {
+  font-weight: 550;
+  letter-spacing: 0.1em;
+}
+
+#intro-contacts {
+  margin-top: 1.5em;
+  font-weight: 550;
+  letter-spacing: 0.1em;
+}
+
+#intro-body a {
+  color: #0c4646;
+}
+
+#intro-body a:hover {
+  color: cyan;
+}
+
+#intro-footer {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+#intro-footer a {
+color: #f1f1f1;
+letter-spacing: 0.1em;
+font-weight: 600;
+}
+
+#intro-footer a:hover {
+  border: 0.06em solid cyan;
+  -webkit-box-shadow: 0 0 0.3em #cacaca;
+          box-shadow: 0 0 0.3em #cacaca;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+}
+
+.content {
+  background: darkcyan;
+  padding-top: 1em;
+}
+
+#aboutme {
+  color: #f1f1f1;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+#about-text {
+  padding-top: 1em;
+  text-align: justify;
+}
+
+#about-deets {
+  padding-top: 2em;
+  font-size: 0.9em;
+  list-style: none;
+}
+
+#skills, #skill-progress {
+  margin-top: 1.5em;
+}
+
+.progress {
+  height: 0.7em;
+}
+
+.progress-meter {
+  background-color: #0c4646;
+}
+
+.progress-meter-text {
+  font-size: 0.7em;
+  padding-bottom: 0.1;
+}
+#portfolio {
+  background: #e5e5e5;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+#port-body {
+  padding-top: 5em;
+}
+
+#port-item-text {
+  padding: 1em;
+  color: #e1e1e1;
+  background: darkcyan;
+  border-bottom-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+}
+
+#port-item img {
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+}
+
+#testmonials {
+  padding-top: 5em;
+  padding-bottom: 3em;
+  background: #0c4646;
+}
+
+#testmonials h2 {
+  color: #f1f1f1;
+}
+
+#contact {
+  margin-top: 5em;
+  padding-bottom: 3em;
+}
+
+#contact-body input, textarea {
+  color: #f1f1f1;
+  margin-top: 1.5em;
+  background: transparent;
+  border-style: none;
+  border-bottom: 0.1em solid cyan;
+  transition: border-color 0.25s ease-in-out;
+}
+
+#contact-body h2 {
+  margin-bottom: 1em;
+  color: #f1f1f1;
+}
+
+#contact-body textarea:focus {
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 0.1em solid cyan;
+}
+
+#contact-body button {
+  margin-top: 1.5em;
+  background: #0c4646;
+}
+
+#contact-body button:hover {
+  border: 0.06em solid cyan;
+  -webkit-box-shadow: 0 0 0.3em #cacaca;
+          box-shadow: 0 0 0.3em #cacaca;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+}
+
+.footer {
+  background: #0c4646;
+}
+
+#footer-text {
+  padding: 1.5em;
+  color: #f1f1f1;
+}
+
+
+/*========Media Queries==========*/
